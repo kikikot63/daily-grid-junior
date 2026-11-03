@@ -1,6 +1,6 @@
-const CACHE_NAME = 'daily-grid-offline-v1';
+const CACHE_NAME = 'daily-grid-offline-v2';
 const ASSETS = [
-  './index.html', './style.css?v=10', './fonts.css', './app.js?v=9', './pwa.js?v=1',
+  './index.html', './style.css?v=10', './fonts.css', './app.js?v=9', './pwa.js?v=2',
   './puzzles.json?v=9', './pencil.svg', './book.svg', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png',
   './font-0.ttf', './font-1.ttf', './font-2.ttf', './font-3.ttf',

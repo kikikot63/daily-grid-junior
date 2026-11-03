@@ -18,9 +18,9 @@
     const instructions = standalone()
       ? '<p>Your game is already open as an app.</p>'
       : ios
-        ? '<ol><li>Open this address in Safari.</li><li>Tap the Share button, then <strong>Add to Home Screen</strong>.</li><li>Tap <strong>Add</strong>, then open Daily Grid from its new icon.</li></ol>'
+        ? '<ol><li>Open this address in Safari.</li><li>Tap the Share button, then <strong>Add to Home Screen</strong>.</li><li>Tap <strong>Add</strong>, then open 初中英语填字解谜 from its new icon.</li></ol>'
         : '<p>Open your browser menu and choose <strong>Install app</strong> or <strong>Add to Home screen</strong>, if available.</p>';
-    document.getElementById('modalbody').innerHTML=`<h2>Your pocket crossword.</h2>${instructions}<p>Open the app once while connected and wait for <strong>Ready offline · 20 puzzles</strong> below the game. Then you can reopen it without a connection.</p><p>Your progress stays on this device. Clearing browser data may remove your progress and offline copy.</p>`;
+    document.getElementById('modalbody').innerHTML=`<h2>初中英语填字解谜</h2><p>20关，600余个英语词汇与常用词形</p>${instructions}<p>Open the app once while connected and wait for <strong>Ready offline · 20 puzzles</strong> below the game. Then you can reopen it without a connection.</p><p>Your progress stays on this device. Clearing browser data may remove your progress and offline copy.</p>`;
     document.getElementById('modal').showModal();
   });
   const checkOffline = worker => new Promise(resolve => {

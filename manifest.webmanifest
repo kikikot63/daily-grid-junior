@@ -1,17 +1,32 @@
 {
   "id": "./",
-  "name": "The Daily Grid — Junior",
-  "short_name": "Daily Grid",
-  "description": "Twenty English crosswords for curious minds. Play offline after saving on this device.",
-  "lang": "en",
+  "name": "初中英语填字解谜",
+  "short_name": "初中英语填字解谜",
+  "description": "20关，600余个英语词汇与常用词形",
+  "lang": "zh-CN",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#fffefa",
   "theme_color": "#fffefa",
   "icons": [
-    {"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
-    {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
-    {"src":"icon-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
