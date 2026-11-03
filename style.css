@@ -7,3 +7,6 @@
 /* Standard blocked grid: every internal rule has the same width. */
 .grid-frame{border:2px solid #111;background:#000}#grid{gap:1px;background:#000}.cell.block{background:#000;box-shadow:none}@media(max-width:760px){.grid-frame{border-width:2px}#grid{gap:1px}}
 /* Home-screen app support. */ body{padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}.bottom{flex-wrap:wrap}.bottom #offline-state{margin-right:0}.offline-ready{color:#36724d}#install-app{text-decoration:underline;text-underline-offset:3px}@media(max-width:760px){.bottom #offline-state{flex-basis:100%;font-size:11px}.bottom{row-gap:10px}}
+
+/* A stable native keyboard target prevents iOS composition from moving between cells. */
+#crossword-keyboard{position:absolute;z-index:1;opacity:0;pointer-events:none;padding:0;border:0;outline:0;font:16px/1 Arial,sans-serif;caret-color:transparent} .cell input{text-transform:uppercase}
